@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #00597B;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00597B;
+  color: white;
   text-decoration: none;
 }
 
@@ -828,11 +828,13 @@ section {
 #footer {
   color: white;
   font-size: 14px;
-  background: #14100f;
+  background: url(../img/header\ fondo.svg) top center;
+}
+.txt-footer {
+  margin-top: 30px;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: black;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -848,7 +850,7 @@ section {
   color: #fff;
 }
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: 'Roboto', sans-serif;
@@ -863,6 +865,10 @@ section {
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+}
+#footer .footer-top .footer-links2 {
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 #footer .footer-top .footer-links ul {
   list-style: none;
@@ -957,4 +963,12 @@ section {
   background: #fd5c28;
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .footer-contact {
+    text-align: center;
+  }
+  #footer .footer-top .footer-contact p {
+    font-size: 16px;
+  }
 }

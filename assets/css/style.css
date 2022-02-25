@@ -426,9 +426,9 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   z-index: 1;
   text-align: center;
-  margin-top: 150px;
   margin-right: 50px;
-  left: 250px;
+  left: 0px;
+  margin-top: 250px;
 }
 .drop-sol {
   color: #005070;
@@ -461,10 +461,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
-@media (min-height: 300px) {
+@media (min-height: 400px) {
   .btn-group-carousel {
     left: 0px;
-    margin-top: 250px;
   }
 }
 /*--------------------------------------------------------------

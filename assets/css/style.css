@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #00597B;
+  color: white;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -421,6 +421,21 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-indicators li {
   cursor: pointer;
 }
+.btn-group-carousel {
+  position: relative;
+  display: block;
+  z-index: 1;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 50px;
+  left: 250px;
+}
+.drop-sol {
+  color: #005070;
+}
+.drop-sol :hover {
+  color: #005070;
+}
 @media (min-width: 1024px) {
   #hero .carousel-content {
     width: 60%;
@@ -446,7 +461,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
-
+@media (min-height: 300px) {
+  .btn-group-carousel {
+    left: 0px;
+    margin-top: 250px;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
